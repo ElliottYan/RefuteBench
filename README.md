@@ -1,6 +1,10 @@
 <h1 align="center">
-[RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models](https://arxiv.org/abs/2402.13463)
+RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models
 </h1>
+
+## Introduction
+RefuteBench evaluates how LLMs react to refuting instructions, demonstrating how stubborn are LLMs against user feedback. 
+For more details, please check our [paper](https://arxiv.org/abs/2402.13463).
 
 
 ## 💡 Note
