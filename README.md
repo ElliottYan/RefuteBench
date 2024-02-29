@@ -1,5 +1,5 @@
 <h1 align="center">
-RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models
+[RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models](https://arxiv.org/abs/2402.13463)
 </h1>
 
 
