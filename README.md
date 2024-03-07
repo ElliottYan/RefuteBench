@@ -3,8 +3,19 @@ RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models
 </h1>
 
 
+## Dependency
+
+
+## Tutorial
+Bash scripts for reproduce our results can be found in "scripts/". 
+Our implementation is mostly based on OPENAI api and VLLM. 
+For open-source models like LLaMA-2 family, Mistral and Alpaca, we use VLLM to first serve the model and then send queries to the server. 
+For close-source models like ChatGPT, GPT4 and Claude-2, we directly send queries to Offical API endpoints. 
+
+
 ## 💡 Note
 Data and code will be uploaded within the next few days. Stay tuned!
+[Update 2024.3.7] We upload code and scripts to reproduce our benchmark.
 
 [Update 2024.2.29] The data is uploaded in data/*. Our benchmark contains three tasks, namely machine translation, question answering and email writing. 
 Then, we have two scenarios: single-feedback and multi-feedback.
